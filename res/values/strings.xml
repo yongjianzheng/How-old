@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">HowOld</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+     <string name="how">HOW   OLD</string>
+      <string name="descrition">探寻您年龄的秘密~</string>
+      <string name="ok">OK</string>
+      <string name="h">HOW</string>
+      <string name="o">OLD</string>
+      <string name="number">0</string>
+       <string name="again">again</string>
+       <string name="zhushi">You have lived for 0 days!</string>
+       <string name="age">Age :</string>
+       <string name="hour">Hour :</string>
+       <string name="minute">Minute :</string>
+       <string name="second">Second :</string>
+</resources>
