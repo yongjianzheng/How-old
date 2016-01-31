@@ -14,7 +14,7 @@
         android:background="#97c39f"
         android:textColor="#FFFFFF"
         />
-    <TextView 
+    <com.app.howold.lib.RiseNumberTextView
         android:id="@+id/show"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -39,7 +39,8 @@
         android:layout_below="@+id/zhushi"
         android:layout_height="wrap_content" 
         style="?android:attr/progressBarStyleHorizontal" 
-        android:progress="50" 
+        android:max="100"
+        android:progress="0"  
         />
      <LinearLayout
          android:id="@+id/layout1"
@@ -59,7 +60,7 @@
              android:textColor="#f0a49f"
              android:textSize="30sp" />
 
-         <TextView
+         <com.app.howold.lib.RiseNumberTextView
              android:id="@+id/show_age"
              android:layout_width="wrap_content"
              android:layout_height="wrap_content"
@@ -88,7 +89,7 @@
              android:textColor="#579db3"
              android:textSize="30sp" />
 
-         <TextView
+         <com.app.howold.lib.RiseNumberTextView
              android:id="@+id/show_hour"
              android:text="177978"
              android:textSize="20sp"
@@ -117,7 +118,7 @@
              android:textColor="#97c39f"
              android:textSize="30sp" />
 
-         <TextView
+         <com.app.howold.lib.RiseNumberTextView
              android:id="@+id/show_minute"
              android:text="10677648"
              android:textSize="20sp"
@@ -146,7 +147,7 @@
              android:textColor="#f0a49f"
              android:textSize="30sp" />
 
-         <TextView
+         <com.app.howold.lib.RiseNumberTextView
              android:id="@+id/show_second"
              android:text="10677648"
              android:textSize="20sp"
