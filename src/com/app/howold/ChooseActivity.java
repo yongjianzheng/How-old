@@ -4,13 +4,9 @@ import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.util.Calendar;
 import java.util.Date;
-
-import android.R.integer;
 import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
-import android.text.format.DateFormat;
-import android.util.Log;
 import android.view.View;
 import android.view.View.OnClickListener;
 import android.view.Window;
@@ -77,6 +73,7 @@ public class ChooseActivity extends Activity {
 					i.putExtra("second", aSecond);
 					startActivity(i);
 					ChooseActivity.this.finish();
+					overridePendingTransition(R.anim.showin, R.anim.chooseout);
 				} catch (ParseException e) {
 					// TODO Auto-generated catch block
 					e.printStackTrace();

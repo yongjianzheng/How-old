@@ -81,6 +81,7 @@ public class ShowActivity extends Activity {
 				Intent intent = new Intent(ShowActivity.this,ChooseActivity.class);
 				startActivity(intent);
 				ShowActivity.this.finish();
+				overridePendingTransition(R.anim.choosein, R.anim.showout);
 			}
 		});
 		new Thread(new Runnable() {
